@@ -1,0 +1,27 @@
+.button {
+    background-color: SlateBlue;
+    border: solid SlateBlue;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 700;
+    margin: auto;
+    padding: 10px 15px;
+    width: 100%;
+
+}
+
+
+.button:hover {
+    background-color: #877bd3;
+    border-color: #877bd3;
+}
+
+.body--light {
+    background-color: #eee;
+}
+
+.body--dark {
+    background-color: #ccc;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Patrycja Śliż-Szpytma</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap');
+    </style>
+</head>
+
+<body class="body body--light">
+    <div class="body__container">
+        <nav>
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#main-info">Główne informacje o mnie</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#interests">Zainteresowania</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <header class="header">
+                <img width="200" src="images/cv.jpg" alt="Patrycja" title="Patrycja">
+                <h1>Strona o mnie</h1>
+            </header>
+            <p>
+                <button class="button js-button"> Zmiana koloru tła strony na
+                    <span class="button--word">ciemniejszy.</span></button>
+            </p>
+            <section id="main-info" class="section">
+                <h2>Parę słów o mnie o mnie </h2>
+                <p>Jestem absolwentą Politechniki Rzeszowskiej
+                    oraz Akademii Górniczo-Hutniczej</p>
+                <div class="tableContainer">
+                    <table class="table">
+                        <caption class="table__caption">Ukończone studia</caption>
+                        <tbody>
+                            <tr class="table__row">
+                                <th scope="col" class="table__cell table__cell--header">Lata</th>
+                                <th scope="col" class="table__cell table__cell--header">Uczelnia</th>
+                                <th scope="col" class="table__cell table__cell--header">Kierunek</th>
+                                <th scope="col" class="table__cell table__cell--header">Specjalizacja</th>
+                                <th scope="col" class="table__cell table__cell--header">Stopień</th>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell">2014-2017</td>
+                                <td class="table__cell">Politechnika Rzeszowska</td>
+                                <td class="table__cell">Inżynieria Medyczna</td>
+                                <td class="table__cell">-</td>
+                                <td class="table__cell">Inżynier</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell">2017-2019</td>
+                                <td class="table__cell">AGH</td>
+                                <td class="table__cell">Inżynieria Biomedyczna</td>
+                                <td class="table__cell">Bionanotechnologie</td>
+                                <td class="table__cell">Magister</td>
+                            </tr>
+                            <tr class="table__row">
+                                <td class="table__cell">2019- obecnie</td>
+                                <td class="table__cell">AGH</td>
+                                <td class="table__cell">Nauki Fizyczne</td>
+                                <td class="table__cell">-</td>
+                                <td class="table__cell">Doktorat</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="interests" class="section">
+                <h3>Zainteresowania</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa doloremque ipsam sunt eligendi
+                    necessitatibus vitae consequatur fuga beatae qui, deserunt placeat reiciendis nemo at ab
+                    repudiandae
+                    nobis.
+                    Velit, magni.</p>
+            </section>
+
+            <section class="section">
+                <h3>Kolejny nagłówek drugiego poziomu</h3>
+                <p>Lorem ipsum dolor<b>sit amet consectetur adipisicing elit. </b>Vel fugiat nemo nulla minus
+                    minima? Necessitatibus quisquam, unde possimus et, deserunt velit explicabo aut
+                    <span class="section section--element">repellat quod </span> non in assumenda ea ullam!
+                </p>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        Zapraszam do kontaktu ;) :
+        <p>
+            <a href="mailto:slizpatrycja@gmail.com">slizpatrycja@gmail.com</a>
+        </p>
+    </footer>
+</body>
+
+</html>

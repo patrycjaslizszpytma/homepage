@@ -1,0 +1,27 @@
+
+.navigation__list {
+    list-style: none;
+    padding-left: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid royalblue;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.navigation__item {
+    margin: 10px 0;
+    
+}
+
+.navigation__link {
+    color: SlateBlue;
+    text-decoration: none;
+}
+
+.navigation__link:hover {
+    color: hsl(225, 73%, 67%);
+}
+
+.navigation__link:active {
+    color: hsl(225, 73%, 77%);
+}

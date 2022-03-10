@@ -1,0 +1,11 @@
+.header {
+    padding: 25px;
+    text-align: center;
+    color: SlateBlue;
+    font-weight: bold;
+    line-height: 1.5;
+    outline: auto;
+    outline-color: #eee;
+    outline-width: 10px;
+    text-shadow: 1px 1px #1a1b52;
+}

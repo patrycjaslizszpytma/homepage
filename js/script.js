@@ -1,22 +1,24 @@
+{
 console.log("hello!");
 
-let button = document.querySelector(".js-button");
-let light = document.querySelector(".body--light");
-let dark = document.querySelector(".body--dark");
-let buttonWord = document.querySelector(".button--word")
+const buttonClick = () =>{
+    const lightBackground = document.querySelector(".body--light");
+    //const darkBackground = document.querySelector(".body--dark");
+    const buttonInnerText = document.querySelector(".button--word")
 
-/*przycisk.addEventListener("click", () => {
-    naglowek.remove();
-});
-console.log(remove);*/
+    lightBackground.classList.toggle("body--dark");
 
-button.addEventListener("click", () => {
-    light.classList.toggle("body--dark");
-
-    if (light.classList.contains("body--dark")) {
-        buttonWord.innerText = "jaśniejszy";
+    if (lightBackground.classList.contains("body--dark")) {
+        buttonInnerText.innerText = "jaśniejszy";
     } else {
-        buttonWord.innerText = "ciemiejszy";
+        buttonInnerText.innerText = "ciemiejszy";
     }
-});
-console.log(button);
+};
+
+const init = () => {
+    const buttonElement = document.querySelector(".js-button");
+    buttonElement.addEventListener("click", buttonClick);
+};
+
+init();
+};
